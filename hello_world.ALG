@@ -1,11 +1,10 @@
-algoritmo "hello_world"
-
-
+algoritmo "hello_world
+var
+   msg:caractere
+   nota1 : inteiro
 inicio
-
-
-    escreval("Ola,mundo!")
-    escreva("Me livrei da maldição!")
-    
-
+      msg <- "Ola,mundo!"
+      Escreval (msg)
+      nota1 <- "456"
+      escreva (nota1)
 fimalgoritmo

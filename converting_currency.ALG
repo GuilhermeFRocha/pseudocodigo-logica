@@ -1,12 +1,19 @@
 Algoritmo "Convertendo Moeda"
-// 
-//  
+//
+//
 //
 Var
-   reais, dolares : inteiro
+   reais, dolares:real
+   C,Q : inteiro
 Inicio
-        escreva("Quantos reais eu tenho? R$")
-        Leia(reais)
-        dolaress <- 4,96
-        escreva("Voce tera em dolares US$: ", reais/dolares)
+   C<-1
+   escreval("Quantas vezes voçê quer converter?")
+   leia(Q)
+   enquanto (C<=Q) faca
+      escreval("Quantos reais eu tenho? R$")
+      Leia(reais)
+      dolares <- 4,96
+      escreval("Voce tera em dolares US$: ", reais/dolares)
+      c<-c+1
+   fimenquanto
 Fimalgoritmo

@@ -4,11 +4,11 @@ Var
    nome,nota: caractere
 Inicio
 
-   Escreval("Qual seu nome:")
+   Escreval("Qual seu nome?")
    Leia(nome)
-   Escreva("Digite sua primeira nota: ")
+   Escreva("Digite sua primeira nota ",nome,":")
    Leia(N1)
-   EScreva("Digite sua segunda nota: ")
+   EScreva("Digite sua segunda nota ",nome,":")
    Leia(N2)
    M <- (N1 + N2) / 2
    Se(M >=  9) entao

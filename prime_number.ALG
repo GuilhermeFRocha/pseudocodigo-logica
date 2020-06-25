@@ -4,7 +4,7 @@ Var
 Inicio
    c<-1
    contdiv <-0
-   Escreva("Digite um numero ")
+   escreva("Digite um numero ")
    leia(n)
    repita
       se (n%c=0) entao
